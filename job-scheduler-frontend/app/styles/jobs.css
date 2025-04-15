@@ -1,0 +1,25 @@
+/* styles/jobs.css */
+.jobs-page {
+    padding: 2rem;
+    background-color: #f9fafb;
+    min-height: 100vh;
+  }
+  
+  .jobs-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: #1f2937;
+  }
+  
+  .jobs-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  .no-jobs {
+    font-size: 1.1rem;
+    color: #6b7280;
+  }
+  

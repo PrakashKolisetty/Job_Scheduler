@@ -1,0 +1,18 @@
+/* app/jobs/jobs.css */
+.jobs-container {
+    padding: 30px 60px;
+    background: #f9fafb;
+    min-height: 100vh;
+  }
+  
+  .jobs-heading {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+  
+  .jobs-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+  

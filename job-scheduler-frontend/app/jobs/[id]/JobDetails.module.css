@@ -1,0 +1,39 @@
+.detailsContainer {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fefefe;
+    border-radius: 12px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    font-size: 16px;
+  }
+  
+  .detailsContainer h1 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #2c3e50;
+  }
+  
+  .detailsContainer p {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .kafkaMeta {
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 6px;
+    font-family: monospace;
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin-top: 12px;
+  }
+  
+  .loading,
+  .error {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 60px;
+  }
+  

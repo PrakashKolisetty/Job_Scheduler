@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b; /* slate-800 */
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.navItems {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navItems li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navItems li a:hover {
+  color: #60a5fa; /* blue-400 */
+}
